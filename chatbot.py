@@ -1,6 +1,6 @@
 print("What's your name?:")
 name = input()
-print(f'hello,{name!} welcome to the Soham Chatbot!')
+print(f'hello,{name} welcome to the Soham Chatbot!')
 print("How was your day? good/bad")
 mood = input()
 if mood == "good":
