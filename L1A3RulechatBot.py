@@ -6,7 +6,7 @@ try:
     init(autoreset=True)
 except Exception:
     class _Fore:
-        CYAN = GREEN = YELLOW = RED = MAGENTA = BLUE = ""
+        CYAN = GREEN = YELLOW = RED= MAGENTA = BLUE = ""
     Fore = _Fore()
     class _Style:
         BRIGHT = RESET_ALL = ""
