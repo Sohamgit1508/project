@@ -7,5 +7,3 @@ if mood == "good":
     print("That's great!! hope your day shines as bright as the sun!!")
 elif mood == "bad":
     print("i am sorry to hear that😔,hope your day gets better:)")
-else:
-    print("It's ok, if you don't want to share it with me!!")
