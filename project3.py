@@ -1,3 +1,3 @@
 x=int(input("enter the number:"))
-square=x*x
-print(square)
+square_root=x**0.5
+print(square_root)
