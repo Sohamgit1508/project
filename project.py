@@ -25,7 +25,7 @@ print("hello,"+ name5)
 birthday5=input("when is your birthday:")
 print("ohh! your birthday is on "+ birthday5)
 
-'''now to add one one line space between these two i can use print() and if i want to add two line space i can use print("\n")'''
+'''now to add one one line space between these two i can use print() and if i want to add two line space i can use print("\n")'''  
 print() #this will add a line space
 #final output
 print(name+"'s birthday is on "+ birthday)
