@@ -3,8 +3,7 @@ name=input("enter your name:")
 print("hello,"+ name)
 birthday=input("when is your birthday:")
 print("ohh! your birthday is on "+ birthday)
-
-#repeating the same process
+#reapeating the process                                                                                        
 name2=input("enter your name:")
 print("hello,"+ name2)
 birthday2=input("when is your birthday:")
