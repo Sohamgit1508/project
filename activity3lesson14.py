@@ -11,7 +11,7 @@ print("1.addition")
 print("2.subtraction")
 print("3.multiplication")
 print("4.division")
-choice=int(input("enter the choice:1/2/3/4"))
+choice=int(input("enter the choice:1/2/3/4:"))
 num1=int(input("enter the first number:"))
 num2=int(input("enter the second number:"))
 if choice==1:
