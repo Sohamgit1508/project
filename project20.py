@@ -1,11 +1,12 @@
 try:
-    age = input("Enter the age: ")
-    if age!=int: '''you can also use the in - built function called is.digit() to check if the input is a integer or  not.'''
-    raise ValueError("the age is not valid")
+    age = int(input("Enter your age: "))   # Convert input directly to integer
+    
+    print("Age is valid.")
+    
+    if age % 2 == 0:
+        print("Your age is even.")
     else:
-        print("The age is valid")
-finally:
-    if age%2=0
-      print("your age is even")
-    else:
-        print("the age is odd")
+        print("Your age is odd.")
+
+except ValueError:
+    print("Invalid input! Please enter a valid integer")
